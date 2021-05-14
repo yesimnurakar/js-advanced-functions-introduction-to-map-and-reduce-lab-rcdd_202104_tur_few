@@ -1,4 +1,5 @@
-const array = [1, 2, 3, -9];
+const sourceArray= [1, 2, 3, -9];
+const array= [];
 
 function mapToNegativize(array) {
     let result = array.map(function(number){
