@@ -3,28 +3,28 @@ const sourceArray = [1, 2, 3, -9];
 function mapToNegativize(array) {
     let result = array.map(function(number){
         return -number ;
-})   
+})
     return result;
 };
 
 function mapToDouble(array) {
     let result = array.map(function(number){
         return number * 2 ;
-})   
+})
     return result;
 };
 
 function mapToSquare(array) {
     let result = array.map(function(number){
         return number * number;
-})   
+})
     return result;
 };
 
 function mapToNoChange(array) {
     let result = array.map(function(number){
         return number;
-})   
+})
     return result;
 };
 
