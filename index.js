@@ -54,7 +54,7 @@ const reduceToAllTrue = (arr) => {
   }
   console.log(reduceToAllTrue(value));
 
-  function reduceToAnyTrue(src) {
+  function reduceToAnyTrue(array) {
     for (let i = 0; i < array.length; i++ ) {
       if (array[i]){
         return true;
