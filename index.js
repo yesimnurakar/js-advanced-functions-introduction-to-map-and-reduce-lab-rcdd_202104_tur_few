@@ -1,7 +1,7 @@
 // Your code here
 const sourceArray=[1,2,3,-9];
 const mapToNegativize = sourceArray.map(x => x * -1);
-mapToNegativize(sourceArray);
+console.log(mapToNegativize);
 mapToNoChange(sourceArray);
 mapToDouble(sourceArray);
 mapToSquare(sourceArray);
