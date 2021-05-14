@@ -1,6 +1,8 @@
 // Your code here
 const sourceArray=[1,2,3,-9];
-const mapToNegativize = sourceArray.map(x => x * -1);
+function mapToNegativize = {
+  const new = sourceArray.map(x => x * -1);
+  return new}
 console.log(mapToNegativize);
 
 
