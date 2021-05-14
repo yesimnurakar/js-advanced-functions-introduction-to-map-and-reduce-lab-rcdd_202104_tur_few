@@ -52,19 +52,19 @@ const reduceToAllTrue = (arr) => {
      }
   })
   }
-  console.log(reduceToAllTrue(value))
+  console.log(reduceToAllTrue(value));
 
   function reduceToAnyTrue(src) {
     for (let i = 0; i < array.length; i++ ) {
       if (array[i]){
         return true;
       }}
-    return false
+    return false;
 };
 
 
 
 reduceToTotal(sourceArray);
-reduceToTotal(sourceArray, 85);
+reduceToTotal(sourceArray, 10);
 reduceToAllTrue(sourceArray);
 reduceToAnyTrue(sourceArray);
