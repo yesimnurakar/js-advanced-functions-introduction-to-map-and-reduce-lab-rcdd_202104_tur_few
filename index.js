@@ -1,4 +1,6 @@
 // Your code here
+const sourceArray=[1,2,3,-9];
+const mapToNegativize = sourceArray.map(x => x * -1);
 mapToNegativize(sourceArray);
 mapToNoChange(sourceArray);
 mapToDouble(sourceArray);
