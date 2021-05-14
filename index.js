@@ -37,18 +37,17 @@ mapToNoChange(sourceArray);
 
 function reduceToTotal(array, startingPoint = 0){
     let result = array.reduce(function(accumulator, number) {
-        return accumulator + number
+        return accumulator + number;
       },startingPoint)
-
       return result;
 }
 
 const reduceToAllTrue = (arr) => {
     return arr.reduce(function(accumulator, currentValue) {
      if(currentValue){
-       return true
+       return true;
      } else {
-       return false
+       return false;
      }
   })
   }
